@@ -1,8 +1,3 @@
-const inquirer = require('inquire');
-const Manager = require('./lib/Manager.js');
-const Engineer = require('./lib/Engineer.js');
-const Intern = require('./lib/Intern.js');
+const Program = require('./lib/Program.js')
 
-function Program() {
-    
-}
+new Program().initializeProgram();
