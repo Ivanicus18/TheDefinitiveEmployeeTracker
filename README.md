@@ -22,7 +22,7 @@ To install, please clone the repository in which this application is contained. 
     
 ## Usage Guide
 
-YouTube walkthrough: https://www.youtube.com/watch?v=fl7IPF-alG0
+YouTube walkthrough: https://youtu.be/Rqll59GKWsY
 
 To run the program, simply open your preffered command line terminal, run node index.js, and then respond to the prompts as appropriate. Once all the prompts have been answered, the file will generate in the dist folder of the root directory.
     
