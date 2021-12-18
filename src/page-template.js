@@ -6,13 +6,14 @@ const generateEmployees = (manager, interns, engineers) => {
                   <div class="col-12 mb-2 bg-dark text-light p-3">
                   <h3 class="portfolio-item-title text-light">${manager.name}</h3>
                     <h5 class="portfolio-languages">
-                      Email Address:
+                      Email Address:<br>
                       ${manager.email}
                     </h5>
                     <p>
                         Employee ID Number:
                         ${manager.id}
                     </p>
+                    <h5 class="portfolio-languages>Phone Number</h5>
                     <p>${manager.phone}</p>
                     <p>${manager.getRole()}</p>
                   </div>
@@ -22,13 +23,14 @@ const generateEmployees = (manager, interns, engineers) => {
                   <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
                     <h3 class="portfolio-item-title text-light">${intern.name}</h3>
                     <h5 class="portfolio-languages">
-                      Email Address:
+                      Email Address:<br>
                       ${intern.email}
                     </h5>
                     <p>
                         Employee ID Number:
                         ${intern.id}
                     </p>
+                    <h5 class="portfolio-languages>School attended:</h5>
                     <p>${intern.school}</p>
                     <p>${intern.getRole()}</p>
                   </div>
@@ -41,7 +43,7 @@ const generateEmployees = (manager, interns, engineers) => {
                       <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
                         <h3 class="portfolio-item-title text-light">${engineer.name}</h3>
                         <h5 class="portfolio-languages">
-                          Email Address:
+                          Email Address:<br>
                           ${engineer.email}
                         </h5>
                         <p>
